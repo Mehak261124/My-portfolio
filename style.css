@@ -178,6 +178,10 @@ section {
   position: relative;
 }
 
+#about .title {
+  margin-left: 20px;
+}
+
 .about-containers {
   display: flex;
   gap: 2rem;
@@ -358,4 +362,8 @@ img {
   .contact-info-container p {
     font-size: medium;
   }
+}
+
+.console {
+    z-index: 100;
 }
